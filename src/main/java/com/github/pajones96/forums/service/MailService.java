@@ -23,6 +23,7 @@ public class MailService {
     void sendMail(NotificationEmail notificationEmail) throws forumsException {
         MimeMessagePreparator messagePreparator = mimeMessage -> {
             MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage);
+            //Replace this bit later with a proper SMTP server email address
             messageHelper.setFrom("springreddit@email.com");
             messageHelper.setTo(notificationEmail.getRecipient());
             messageHelper.setSubject(notificationEmail.getSubject());
