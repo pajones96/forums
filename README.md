@@ -1,7 +1,7 @@
 # forums
 Gonna start with a Reddit Clone from freeCodeCamp.org, then see if I can make it cooler
 
-This is gonna start out as a clone of reddit used springboot, Java, Javascript, SQL, Angular, yadda yadda yadda
+This is gonna start out as a clone of reddit using Spring Boot, Java, Javascript, SQL, Angular, yadda yadda yadda
 based on [this tutorial](https://youtu.be/DKlTBBuc32c "Spring Boot and Angular Tutorial - Build a Reddit Clone") from [freeCodeCamp.org.](https://www.freecodecamp.org)
 
 I currently have two ideas for what to do with this once it's all done and ready to go.
